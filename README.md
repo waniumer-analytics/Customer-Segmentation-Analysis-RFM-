@@ -25,14 +25,14 @@ This project solves that problem by using RFM analysis to categorize customers b
                                            Dataset Description
 Dataset used: Online Retail Dataset
 
-Key characteristics:-
-1.~500,000 transaction records  .
+Key characteristics: -
+1. ~500,000 transaction records  .
 2.  4,338 unique customers  .
 3.  Transaction-level sales data  .
 
 Main fields:
 
- Column           | Description 
+     Column             | Description 
 
 1.  InvoiceNo    | Unique transaction ID |
 2.  StockCode    | Product ID |
@@ -46,17 +46,17 @@ Main fields:
 
 
                                                   Tools Used
-1. SQL (MySQL)
+1. SQL (MySQL): -
 • Data cleaning  .
 • Revenue calculation . 
 • RFM metric generation . 
 
-2. Power BI
+2. Power BI: -
 • Data modeling  .
 • KPI creation (DAX)  .
 • Interactive dashboard .
 
-3. Excel / CSV
+3. Excel / CSV: -
 • Dataset storage  .
 
                                                   RFM Methodology
