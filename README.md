@@ -1,5 +1,6 @@
-                                   Customer-Segmentation-Analysis-RFM-
+                                       Customer-Segmentation-Analysis-RFM-
 
+                                            
                                             Project Overview
                                             
 This project analyzes customer purchasing behavior using the RFM (Recency, Frequency, Monetary) model to segment customers based on their value to the business.
@@ -11,6 +12,7 @@ The goal is to identify:
 The project demonstrates the full analytics workflow including SQL analysis, data modeling, dashboard development, and business insights generation.
 
                                              Business Problem
+                                             
 Retail businesses often struggle to understand which customers generate the most revenue and which customers are likely to stop purchasing.
 Without customer segmentation:
 • Marketing campaigns become inefficient  .
@@ -112,7 +114,8 @@ Introduce product bundles, limited-time deals, and subscription models.
 
 <img width="1309" height="730" alt="Screenshot 2026-03-07 114948" src="https://github.com/user-attachments/assets/5a4d44fe-4db7-443d-884e-e917a3394f0c" />
 
-The Power BI dashboard includes:
+The Power BI dashboard includes:-
+
 • KPI summary metrics  
 • Customer segment distribution  
 • Customer engagement scatter plot  
@@ -130,7 +133,8 @@ This interactive dashboard helps stakeholders quickly understand customer behavi
 6. Dashboard Development
 7. Business Insights
 8. Stakeholder Presentation.
-                                                Author
+
+                                              Author
 LINKEDIN: -
 PORTFOLIO: -
 
