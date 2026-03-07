@@ -5,19 +5,20 @@
                                             
 This project analyzes customer purchasing behavior using the RFM (Recency, Frequency, Monetary) model to segment customers based on their value to the business.
 The goal is to identify:
-• High-value customers . 
-• Loyal customers  .
-• Customers at risk of churn  .
-• Opportunities to increase revenue through targeted strategies . 
+1. High-value customers . 
+2. Loyal customers  .
+3. Customers at risk of churn  .
+4.  Opportunities to increase revenue through targeted strategies .
+   
 The project demonstrates the full analytics workflow including SQL analysis, data modeling, dashboard development, and business insights generation.
 
                                              Business Problem
                                              
 Retail businesses often struggle to understand which customers generate the most revenue and which customers are likely to stop purchasing.
 Without customer segmentation:
-• Marketing campaigns become inefficient  .
-• High-value customers may not receive special attention  .
-• At-risk customers are not identified early . 
+1.  Marketing campaigns become inefficient  .
+2.   High-value customers may not receive special attention  .
+3.  At-risk customers are not identified early . 
 
 This project solves that problem by using RFM analysis to categorize customers based on purchasing behavior.
 
@@ -25,37 +26,38 @@ This project solves that problem by using RFM analysis to categorize customers b
 Dataset used: Online Retail Dataset
 
 Key characteristics:-
-• ~500,000 transaction records  
-• 4,338 unique customers  
-• Transaction-level sales data  .
+1.~500,000 transaction records  .
+2.  4,338 unique customers  .
+3.  Transaction-level sales data  .
 
 Main fields:
-| Column       | Description |
 
-| InvoiceNo    | Unique transaction ID |
-| StockCode    | Product ID |
-| Description  | Product name |
-| Quantity     | Number of units purchased |
-| InvoiceDate  | Purchase timestamp |
-| UnitPrice    | Price per product |
-| CustomerID   | Unique customer ID |
-| Country      | Customer location |
+ Column           | Description 
+
+1.  InvoiceNo    | Unique transaction ID |
+2.  StockCode    | Product ID |
+3.  Description  | Product name |
+4.  Quantity     | Number of units purchased |
+5.  InvoiceDate  | Purchase timestamp |
+6.  UnitPrice    | Price per product |
+7.  CustomerID   | Unique customer ID |
+8.  Country      | Customer location |
 
 
 
                                                   Tools Used
 1. SQL (MySQL)
-• Data cleaning  
-• Revenue calculation  
-• RFM metric generation  
+• Data cleaning  .
+• Revenue calculation . 
+• RFM metric generation . 
 
 2. Power BI
-• Data modeling  
-• KPI creation (DAX)  
+• Data modeling  .
+• KPI creation (DAX)  .
 • Interactive dashboard .
 
 3. Excel / CSV
-• Dataset storage  
+• Dataset storage  .
 
                                                   RFM Methodology
 
@@ -65,27 +67,25 @@ The analysis uses three customer behavior metrics:
 3.	Monetary:-How much the customer spends.
 
 Customers were segmented into:
-• Champions  
-• Loyal Customers  
-• Potential Loyalists  
-• At Risk  
-• Others
+1.  Champions  
+2. Loyal Customers  
+3. Potential Loyalists  
+4. At Risk  
+5. Others
 
     
                                                       Key Metrics
                                                       
-|     Metric                 | Value |
-
-| Total Revenue              | £9M |
-| Total Customers            | 4338 |
-| Revenue per Customer       | £2.05K |
-| Average Purchase Frequency | 4.27 |
-| Average Recency            | 93 Days |
+1.  Total Revenue               £9M .
+2.  Total Customers             4338 .
+3.  Revenue per Customer        £2.05K .
+4.  Average Purchase Frequency  4.27 .
+5.  Average Recency             93 Days .
 
                                                   Key Insights
                                                   
  1 .  Revenue Concentration.
-A small group of customers generates a large portion of the total revenue.
+      A small group of customers generates a large portion of the total revenue.
 
 2 .  Potential Loyalists Drive Revenue
 Potential Loyalists represent the largest revenue-generating segment.
@@ -116,12 +116,12 @@ Introduce product bundles, limited-time deals, and subscription models.
 
 The Power BI dashboard includes:-
 
-• KPI summary metrics  
-• Customer segment distribution  
-• Customer engagement scatter plot  
-• Revenue by customer segment  
-• Frequency vs Monetary analysis  
-• Top customers by revenue  
+1.  KPI summary metrics  .
+2.  Customer segment distribution  .
+3.  Customer engagement scatter plot  .
+4.  Revenue by customer segment . 
+5.  Frequency vs Monetary analysis . 
+6.  Top customers by revenue . 
 This interactive dashboard helps stakeholders quickly understand customer behavior patterns.
 
                                          Project Workflow
