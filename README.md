@@ -2,7 +2,9 @@
 
                                             
                                             Project Overview
-                                            
+   <img width="1075" height="716" alt="THUMBNAIL" src="https://github.com/user-attachments/assets/60e5546f-0a05-4903-b20f-7864c2229500" />
+
+                                         
 This project analyzes customer purchasing behavior using the RFM (Recency, Frequency, Monetary) model to segment customers based on their value to the business.
 The goal is to identify:
 1. High-value customers . 
