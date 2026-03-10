@@ -137,6 +137,7 @@ This interactive dashboard helps stakeholders quickly understand customer behavi
 8. Stakeholder Presentation.
 
                                               Author
-LINKEDIN: - https://www.linkedin.com/posts/waniumer-analytics_dataanalytics-powerbi-sql-activity-7436251894429396992-PlBv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE 
-PORTFOLIO: -
+1. LINKEDIN: - https://www.linkedin.com/posts/waniumer-analytics_dataanalytics-powerbi-sql-activity-7436251894429396992-PlBv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE 
+
+2. PORTFOLIO: - https://codebasics.io/portfolio/WANI-UMER
 
