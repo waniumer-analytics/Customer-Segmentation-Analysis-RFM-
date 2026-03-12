@@ -2,39 +2,47 @@
 
                                             
                                             Project Overview
-   <img width="1075" height="716" alt="THUMBNAIL" src="https://github.com/user-attachments/assets/60e5546f-0a05-4903-b20f-7864c2229500" />
+                                            
+ <img width="1309" height="730" alt="DASHBOARD" src="https://github.com/user-attachments/assets/cb512f1c-7d5f-4758-a866-632b5f14419f" />
 
-                                         
-This project analyzes customer purchasing behavior using the RFM (Recency, Frequency, Monetary) model to segment customers based on their value to the business.
-The goal is to identify:
+                                       The Power BI dashboard includes:-
+1.  KPI summary metrics  .
+2.  Customer segment distribution  .
+3.  Customer engagement scatter plot  .
+4.  Revenue by customer segment . 
+5.  Frequency vs Monetary analysis . 
+6.  Top customers by revenue . 
+This interactive dashboard helps stakeholders quickly understand customer behavior patterns and customer purchasing behavior using the RFM (Recency, Frequency, Monetary) model to segment customers based on their value to the business.
+
+- The goal is to identify:
 1. High-value customers . 
 2. Loyal customers  .
 3. Customers at risk of churn  .
 4.  Opportunities to increase revenue through targeted strategies .
    
-The project demonstrates the full analytics workflow including SQL analysis, data modeling, dashboard development, and business insights generation.
+- The project demonstrates the full analytics workflow including SQL analysis, data modeling, dashboard development, and business insights generation.
 
-                                             Business Problem
+                                             Business Problem.
                                              
-Retail businesses often struggle to understand which customers generate the most revenue and which customers are likely to stop purchasing.
-Without customer segmentation:
+- Retail businesses often struggle to understand which customers generate the most revenue and which customers are likely to stop purchasing.
+- Without customer segmentation:-
 1.  Marketing campaigns become inefficient  .
 2.   High-value customers may not receive special attention  .
 3.  At-risk customers are not identified early . 
 
-This project solves that problem by using RFM analysis to categorize customers based on purchasing behavior.
+- This project solves that problem by using RFM analysis to categorize customers based on purchasing behavior.
 
-                                           Dataset Description
-Dataset used: Online Retail Dataset
+                                           Dataset Description.
+- Dataset used: Online Retail Dataset
 
 Key characteristics: -
 1. ~500,000 transaction records  .
 2.  4,338 unique customers  .
 3.  Transaction-level sales data  .
 
-Main fields:
+- Main fields:
 
-     Column             | Description 
+-      Column    | Description 
 
 1.  InvoiceNo    | Unique transaction ID |
 2.  StockCode    | Product ID |
@@ -47,7 +55,7 @@ Main fields:
 
 
 
-                                                  Tools Used
+                                                  Tools & Techniques Used.
 1. SQL (MySQL): -
 • Data cleaning  .
 • Revenue calculation . 
@@ -61,83 +69,69 @@ Main fields:
 3. Excel / CSV: -
 • Dataset storage  .
 
-                                                  RFM Methodology
+                                                  RFM Methodology.
 
-The analysis uses three customer behavior metrics:
+- The analysis uses three customer behavior metrics:-
 1.	Recency:- How recently a customer made a purchase.
 2.	Frequency:- How often the customer makes purchases.
 3.	Monetary:-How much the customer spends.
 
-Customers were segmented into:
-1.  Champions  
-2. Loyal Customers  
-3. Potential Loyalists  
-4. At Risk  
-5. Others
+- Customers were segmented into:-
+1.  Champions  .
+2. Loyal Customers . 
+3. Potential Loyalists  .
+4. At Risk  .
+5. Others.
 
     
                                                       Key Metrics
                                                       
-1.  Total Revenue               £9M .
-2.  Total Customers             4338 .
-3.  Revenue per Customer        £2.05K .
-4.  Average Purchase Frequency  4.27 .
-5.  Average Recency             93 Days .
+-   Total Revenue               £9M .
+-  Total Customers             4338 .
+-  Revenue per Customer        £2.05K .
+-  Average Purchase Frequency  4.27 .
+-  Average Recency             93 Days .
 
-                                                  Key Insights
+                                                  Key Insights.
                                                   
  1 .  Revenue Concentration.
-      A small group of customers generates a large portion of the total revenue.
+- A small group of customers generates a large portion of the total revenue.
 
-2 .  Potential Loyalists Drive Revenue
-Potential Loyalists represent the largest revenue-generating segment.
+2 .  Potential Loyalists Drive Revenue.
+- Potential Loyalists represent the largest revenue-generating segment.
 
- 3.  Recency Drives Frequency
-Customers who purchased recently tend to purchase more frequently.
+ 3.  Recency Drives Frequency.
+- Customers who purchased recently tend to purchase more frequently.
 
   4.  At Risk Customers
 Approximately 9% of customers show signs of declining engagement and may churn.
 
-                                           Business Recommendations
+                                           Business Recommendations.
                                            
- 1. Convert Potential Loyalists into Champions
-Offer loyalty programs, discounts, and exclusive deals to encourage repeat purchases.
+ 1. Convert Potential Loyalists into Champions.
+- Offer loyalty programs, discounts, and exclusive deals to encourage repeat purchases.
 
- 2.  Reward High-Value Customers
-Introduce VIP programs for top customers to increase retention.
+ 2.  Reward High-Value Customers.
+- Introduce VIP programs for top customers to increase retention.
 
- 3. Reactivate At-Risk Customers
-Launch targeted campaigns such as personalized emails and special offers.
+ 3. Reactivate At-Risk Customers.
+- Launch targeted campaigns such as personalized emails and special offers.
 
- 4. Increase Purchase Frequency
-Introduce product bundles, limited-time deals, and subscription models.
-
-                                         Dashboard Preview
-
-<img width="1309" height="730" alt="Screenshot 2026-03-07 114948" src="https://github.com/user-attachments/assets/5a4d44fe-4db7-443d-884e-e917a3394f0c" />
-
-The Power BI dashboard includes:-
-
-1.  KPI summary metrics  .
-2.  Customer segment distribution  .
-3.  Customer engagement scatter plot  .
-4.  Revenue by customer segment . 
-5.  Frequency vs Monetary analysis . 
-6.  Top customers by revenue . 
-This interactive dashboard helps stakeholders quickly understand customer behavior patterns.
+ 4. Increase Purchase Frequency.
+- Introduce product bundles, limited-time deals, and subscription models.
 
                                          Project Workflow
-1. Data Cleaning (SQL)
-2. Feature Engineering (Revenue, RFM metrics)
-3. Customer Segmentation
-4. Data Modeling (Power BI)
-5. KPI Development (DAX)
-6. Dashboard Development
-7. Business Insights
+1. Data Cleaning (SQL).
+2. Feature Engineering (Revenue, RFM metrics).
+3. Customer Segmentation.
+4. Data Modeling (Power BI).
+5. KPI Development (DAX).
+6. Dashboard Development.
+7. Business Insights.
 8. Stakeholder Presentation.
 
                                               Author
-1. LINKEDIN: - https://www.linkedin.com/posts/waniumer-analytics_dataanalytics-powerbi-sql-activity-7436251894429396992-PlBv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE 
+-  LINKEDIN: - https://www.linkedin.com/posts/waniumer-analytics_dataanalytics-powerbi-sql-activity-7436251894429396992-PlBv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS0HwB-OAdiVBbiM-Z0IdF32qvthi_XwE  .
 
-2. PORTFOLIO: - https://codebasics.io/portfolio/WANI-UMER
+- PORTFOLIO: - https://codebasics.io/portfolio/WANI-UMER.
 
